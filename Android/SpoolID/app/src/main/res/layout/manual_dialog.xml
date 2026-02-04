@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F4F4F4"
+    android:background="@color/background_main"
     android:fitsSystemWindows="true"
     android:fillViewport="true">
 
@@ -44,7 +44,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:hint="@string/month"
-                    android:textColorHint="#1976D2"
+                    app:boxBackgroundColor="@color/background_alt"
+                    android:textColorHint="@color/primary_brand"
                     app:boxStrokeColor="@color/input_border_color"
                     app:expandedHintEnabled="false"
                     app:hintAnimationEnabled="false"
@@ -58,7 +59,7 @@
                         android:inputType="textNoSuggestions|textCapCharacters"
                         android:maxLength="1"
                         android:singleLine="true"
-                        android:textColor="#000000" />
+                        android:textColor="@color/text_main" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -69,7 +70,8 @@
                     android:layout_marginStart="8dp"
                     android:layout_weight="1"
                     android:hint="@string/day"
-                    android:textColorHint="#1976D2"
+                    android:textColorHint="@color/primary_brand"
+                    app:boxBackgroundColor="@color/background_alt"
                     app:boxStrokeColor="@color/input_border_color"
                     app:expandedHintEnabled="false"
                     app:hintAnimationEnabled="false">
@@ -82,7 +84,7 @@
                         android:inputType="textNoSuggestions|textCapCharacters"
                         android:maxLength="2"
                         android:singleLine="true"
-                        android:textColor="#000000" />
+                        android:textColor="@color/text_main" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -93,7 +95,8 @@
                     android:layout_marginStart="8dp"
                     android:layout_weight="1"
                     android:hint="@string/year"
-                    android:textColorHint="#1976D2"
+                    android:textColorHint="@color/primary_brand"
+                    app:boxBackgroundColor="@color/background_alt"
                     app:boxStrokeColor="@color/input_border_color"
                     app:expandedHintEnabled="false"
                     app:hintAnimationEnabled="false">
@@ -106,7 +109,7 @@
                         android:inputType="number"
                         android:maxLength="2"
                         android:singleLine="true"
-                        android:textColor="#000000" />
+                        android:textColor="@color/text_main" />
                 </com.google.android.material.textfield.TextInputLayout>
             </LinearLayout>
 
@@ -117,7 +120,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
                 android:hint="@string/vendor"
-                android:textColorHint="#1976D2"
+                android:textColorHint="@color/primary_brand"
+                app:boxBackgroundColor="@color/background_alt"
                 app:boxStrokeColor="@color/input_border_color"
                 app:expandedHintEnabled="false"
                 app:hintAnimationEnabled="false"
@@ -127,7 +131,7 @@
                     android:id="@+id/txtvendor"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColor="#000000" />
+                    android:textColor="@color/text_main" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -137,7 +141,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
                 android:hint="@string/batch"
-                android:textColorHint="#1976D2"
+                android:textColorHint="@color/primary_brand"
+                app:boxBackgroundColor="@color/background_alt"
                 app:boxStrokeColor="@color/input_border_color"
                 app:expandedHintEnabled="false"
                 app:hintAnimationEnabled="false"
@@ -147,7 +152,7 @@
                     android:id="@+id/txtbatch"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColor="#000000" />
+                    android:textColor="@color/text_main" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -157,7 +162,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
                 android:hint="@string/material"
-                android:textColorHint="#1976D2"
+                android:textColorHint="@color/primary_brand"
+                app:boxBackgroundColor="@color/background_alt"
                 app:boxStrokeColor="@color/input_border_color"
                 app:expandedHintEnabled="false"
                 app:hintAnimationEnabled="false"
@@ -167,7 +173,7 @@
                     android:id="@+id/txtmaterial"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColor="#000000" />
+                    android:textColor="@color/text_main" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -177,11 +183,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
                 android:hint="@string/color"
-                android:textColorHint="#1976D2"
+                android:textColorHint="@color/primary_brand"
                 app:boxStrokeColor="@color/input_border_color"
+                app:boxBackgroundColor="@color/background_alt"
                 app:endIconDrawable="@drawable/twotone_palette_24"
                 app:endIconMode="custom"
-                app:endIconTint="#1976D2"
+                app:endIconTint="@color/primary_brand"
                 app:expandedHintEnabled="false"
                 app:hintAnimationEnabled="false"
                 app:layout_constraintTop_toBottomOf="@id/layout_material">
@@ -190,7 +197,7 @@
                     android:id="@+id/txtcolor"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColor="#000000" />
+                    android:textColor="@color/text_main" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -200,7 +207,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
                 android:hint="@string/size"
-                android:textColorHint="#1976D2"
+                android:textColorHint="@color/primary_brand"
+                app:boxBackgroundColor="@color/background_alt"
                 app:boxStrokeColor="@color/input_border_color"
                 app:expandedHintEnabled="false"
                 app:hintAnimationEnabled="false"
@@ -210,7 +218,7 @@
                     android:id="@+id/txtlength"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColor="#000000" />
+                    android:textColor="@color/text_main" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -220,11 +228,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
                 android:hint="@string/serial"
-                android:textColorHint="#1976D2"
+                android:textColorHint="@color/primary_brand"
+                app:boxBackgroundColor="@color/background_alt"
                 app:boxStrokeColor="@color/input_border_color"
                 app:endIconDrawable="@drawable/twotone_cached_24"
                 app:endIconMode="custom"
-                app:endIconTint="#1976D2"
+                app:endIconTint="@color/primary_brand"
                 app:expandedHintEnabled="false"
                 app:hintAnimationEnabled="false"
                 app:layout_constraintTop_toBottomOf="@id/layout_length">
@@ -233,7 +242,7 @@
                     android:id="@+id/txtserial"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColor="#000000" />
+                    android:textColor="@color/text_main" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -243,7 +252,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
                 android:hint="@string/reserve"
-                android:textColorHint="#1976D2"
+                android:textColorHint="@color/primary_brand"
+                app:boxBackgroundColor="@color/background_alt"
                 app:boxStrokeColor="@color/input_border_color"
                 app:expandedHintEnabled="false"
                 app:hintAnimationEnabled="false"
@@ -253,7 +263,7 @@
                     android:id="@+id/txtreserve"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColor="#000000" />
+                    android:textColor="@color/text_main" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <LinearLayout
@@ -273,7 +283,7 @@
                     android:layout_marginEnd="60dp"
                     android:importantForAccessibility="no"
                     android:src="@drawable/twotone_restart_alt_24"
-                    app:tint="#1976D2" />
+                    app:tint="@color/primary_brand" />
 
                 <ImageView
                     android:id="@+id/btnfmt"
@@ -281,7 +291,7 @@
                     android:layout_height="48dp"
                     android:importantForAccessibility="no"
                     android:src="@drawable/twotone_layers_clear_24"
-                    app:tint="#1976D2" />
+                    app:tint="@color/primary_brand" />
             </LinearLayout>
 
             <LinearLayout
@@ -295,6 +305,7 @@
                 app:layout_constraintTop_toBottomOf="@id/action_icons">
 
                 <Button
+                    android:textColor="@color/text_inverted"
                     android:id="@+id/btncls"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -305,6 +316,7 @@
                     tools:ignore="ButtonStyle" />
 
                 <Button
+                    android:textColor="@color/text_inverted"
                     android:id="@+id/btnread"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -314,6 +326,7 @@
                     tools:ignore="ButtonStyle" />
 
                 <Button
+                    android:textColor="@color/text_inverted"
                     android:id="@+id/btnwrite"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
