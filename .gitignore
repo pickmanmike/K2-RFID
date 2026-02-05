@@ -1,0 +1,4 @@
+Windows/.vs/
+**/bin/
+**/obj/
+Windows/packages/
